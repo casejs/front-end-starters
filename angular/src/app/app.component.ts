@@ -8,26 +8,11 @@ import CaseClient from '@casejs/case-client';
 })
 export class AppComponent {
   title = 'angular';
-  pokemons: { id: number; name: string; type: string }[] = [];
+  pokemons: { id: number; name: string; type: string; image: string }[] = [];
 
   async ngOnInit() {
     const cs = new CaseClient();
 
     this.pokemons = await cs.from('pokemon').find();
-  }
-
-  async addPokemon() {
-    const cs = new CaseClient();
-
-    const pokemon: any = await cs.from('pokemon').create({
-      name: 'Pikachu',
-      type: 'Electric',
-    });
-
-    this.pokemons.push({
-      id: pokemon.id,
-      name: pokemon.name,
-      type: pokemon.type,
-    });
   }
 }

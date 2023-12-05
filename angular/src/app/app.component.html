@@ -7,7 +7,7 @@
 
   <div class="columns">
     <div class="column">
-      <h2 class="title is-3">Add a new Pokemon</h2>
+      <p>This is a starter project for Angular.</p>
     </div>
   </div>
 
@@ -16,6 +16,7 @@
       <table class="table is-striped is-fullwidth">
         <thead>
           <tr>
+            <th>Image</th>
             <th>ID</th>
             <th>Name</th>
             <th>Type</th>
@@ -23,6 +24,9 @@
         </thead>
         <tbody>
           <tr *ngFor="let pokemon of pokemons">
+            <td>
+              <img src="{{ pokemon.image }}" alt="{{ pokemon.name }} image" />
+            </td>
             <td>{{ pokemon.id }}</td>
             <td>{{ pokemon.name }}</td>
             <td>{{ pokemon.type }}</td>

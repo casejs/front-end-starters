@@ -26,3 +26,10 @@ Then `cd` into your favorite front-end and run:
 npm i
 npm start
 ```
+
+## Dependencies
+
+This project makes use of the following open source libraries and tools:
+
+- [PokeAPI](https://github.com/PokeAPI/pokeapi)
+- [Bulma](https://bulma.io)
