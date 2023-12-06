@@ -12,6 +12,7 @@ First of all launch the CASE backend:
 
 ```
 cd case
+cp .env.example .env
 npm i
 npm start
 ```

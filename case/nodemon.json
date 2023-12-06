@@ -1,0 +1,5 @@
+{
+  "watch": ["entities"],
+  "ext": "ts",
+  "exec": "npm run compile"
+}

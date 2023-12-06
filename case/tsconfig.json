@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "rootDir": "./",
+    "outDir": "dist"
+  },
+  "exclude": ["public"]
+}
