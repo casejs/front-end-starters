@@ -25,13 +25,13 @@ function App() {
     <div className="container">
       <div className="columns">
         <div className="column">
-          <h1 className="title is-1">Svelte Starter for CASE</h1>
+          <h1 className="title is-1">ReactJS Starter for CASE</h1>
         </div>
       </div>
 
       <div className="columns">
         <div className="column">
-          <p>This is a starter project for Svelte.</p>
+          <p>This is a starter project for ReactJS.</p>
         </div>
       </div>
 
