@@ -21,7 +21,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@casejs/case-client": "^1.0.0",
+    "@casejs/case-client": "^1.0.3",
     "bulma": "^0.9.4"
   }
 }

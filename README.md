@@ -1,5 +1,7 @@
 # CASE Front-end starters
 
+<img src="./starter-screenshot.png" alt="My Image"  style="display: block; margin-left: auto; margin-right: auto; width: 70%;" />
+
 This repo features CASE starters with popular front-end frameworks.
 
 The example app is a virtual Pokedex where you can see and create Pokemon.
